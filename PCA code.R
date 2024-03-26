@@ -11,6 +11,7 @@ numerical_data <- mammalsize[,2:5]
 
 head(numerical_data)
 data_normalized <- scale(numerical_data)
+print(data_normalized)
 head(data_normalized)
 
 corr_matrix <- cor(data_normalized)
